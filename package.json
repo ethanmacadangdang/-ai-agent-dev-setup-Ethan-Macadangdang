@@ -1,0 +1,14 @@
+{
+  "name": "mcp-configs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:rolldice": "node ./servers/rolldice/index.js",
+    "start:bootcamp": "node ./servers/bootcamp-ai-agent/index.js",
+    "start:calendar": "node ./servers/calendar-booking/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.23.8"
+  }
+}
